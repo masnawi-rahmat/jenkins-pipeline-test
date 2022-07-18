@@ -8,7 +8,7 @@ pipeline {
             }
         }
     }
-        stage('read file'){
+        stage('read file') {
             steps {
                 script {
                 pritln("test print line")
