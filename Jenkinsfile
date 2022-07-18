@@ -8,7 +8,7 @@ pipeline {
                    def data = "Hello World\nSecond line\n" + date
                    writeFile(file: 'zorg.txt', text: data)
                    sh "ls -l"
-                   sh "echo zorg.txt" 
+                   sh "cat zorg.txt" 
                }
            }
        }
